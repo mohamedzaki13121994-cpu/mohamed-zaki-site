@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>محمد زكي | مستشار المشاريع والإدارة التشغيلية للمشاريع الغذائية</title>
+<meta name="description" content="محمد زكي — مستشار المشاريع والإدارة التشغيلية. خبرة عملية في التشغيل والإنتاج، تحليل التكاليف، المشتريات وسلاسل الإمداد، وتحليل البيانات للمشاريع الغذائية.">
+<meta name="theme-color" content="#121B26">
+<meta property="og:title" content="محمد زكي | مستشار المشاريع والإدارة التشغيلية للمشاريع الغذائية">
+<meta property="og:description" content="محمد زكي — مستشار المشاريع والإدارة التشغيلية. خبرة عملية في التشغيل والإنتاج، تحليل التكاليف، المشتريات وسلاسل الإمداد، وتحليل البيانات للمشاريع الغذائية.">
+<meta property="og:image" content="https://mohamed-zaki.com/hero.webp">
+<link rel="alternate" hreflang="ar" href="https://mohamed-zaki.com/">
+<link rel="alternate" hreflang="en" href="https://mohamed-zaki.com/en.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#121B26;--navy2:#1A2532;--green:#14301F;--green2:#1E4430;
+  --gold:#D4AF5F;--gold-l:#EBD08F;--gold-d:#A9823A;
+  --goldgrad:linear-gradient(135deg,#F1D998 0%,#D4AF5F 50%,#A9823A 100%);
+  --bg:#FFFFFF;--soft:#F5F3EE;--text:#16191D;--mut:#5E646B;--line:#E7E3DA;
+  --body:"Tajawal","Segoe UI",Tahoma,sans-serif;--latin:"Cormorant Garamond",Georgia,serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--text);background:var(--bg);line-height:1.8;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.wrap{max-width:1440px;margin:0 auto;padding:0 24px}
+.gold{color:var(--gold)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:13px 28px;border-radius:6px;font-weight:700;font-size:16px;transition:.25s;white-space:nowrap}
+.btn svg{width:20px;height:20px}
+.btn-gold{background:var(--goldgrad);color:#16191D}
+.btn-gold:hover{filter:brightness(1.06);transform:translateY(-1px)}
+.btn-line{border:1px solid rgba(255,255,255,.55);color:#fff}
+.btn-line:hover{border-color:var(--gold);color:var(--gold-l)}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:var(--navy);border-bottom:1px solid rgba(212,175,95,.15)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:76px;gap:24px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .mz{font-family:var(--latin);font-weight:600;font-size:54px;line-height:1;letter-spacing:-9px;padding-left:8px;background:var(--goldgrad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.brand b{display:block;color:#fff;font-size:22px;line-height:1.2;letter-spacing:1px}
+.brand .en{display:block;color:#fff;font-size:11px;letter-spacing:.2em;line-height:1.3}
+.brand small{display:block;color:var(--gold-l);font-size:10.5px;letter-spacing:.06em;line-height:1.3}
+nav{display:flex;gap:34px;color:#e4e6ea;font-size:16px}
+nav a{position:relative;padding:6px 0}
+nav a:hover,nav a.on{color:var(--gold)}
+nav a.on::after{content:"";position:absolute;bottom:-4px;right:0;left:0;height:2px;background:var(--gold)}
+header .btn{padding:10px 20px;font-size:15px}
+
+/* hero */
+.hero{position:relative;background:var(--navy);color:#fff;overflow:hidden;min-height:540px}
+.hero .pic{position:absolute;top:0;bottom:0;left:0;width:52%;background:url(hero.webp) center/cover}
+.hero .pic::after{content:"";position:absolute;inset:0;background:linear-gradient(270deg,var(--navy) 0%,rgba(18,27,38,.55) 14%,rgba(18,27,38,0) 32%)}
+.hero .jars{position:absolute;top:0;bottom:0;right:0;width:15%;background:url(jars.webp) left bottom/cover}
+.hero .jars::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--navy) 0%,rgba(18,27,38,.35) 45%,rgba(18,27,38,.1) 100%)}
+.pillars4{position:absolute;right:calc(15% - 50px);top:150px;z-index:2;border-inline-end:2px solid var(--gold);padding-inline-end:16px;font-family:var(--latin);letter-spacing:.18em;font-size:14px;line-height:2;color:#e6e8ec}
+.pillars4::after{content:"";display:block;width:44px;height:2px;background:var(--gold);margin-top:14px}
+.hero .wrap{position:relative;display:flex;justify-content:flex-start;padding-top:64px;padding-bottom:64px;padding-right:calc(15% + 130px);max-width:none}
+.hero .txt{width:min(620px,42vw)}
+.eyebrow{color:var(--gold-l);font-size:19px;font-weight:500;margin-bottom:10px}
+h1{font-size:52px;line-height:1.3;font-weight:800;margin-bottom:18px}
+.lead{font-size:19px;color:#d4d8de;margin-bottom:32px;max-width:520px}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.stats{display:flex;gap:28px;margin-top:38px;padding-top:24px;border-top:1px solid rgba(255,255,255,.12);max-width:520px}
+.stats b{display:block;font-size:30px;line-height:1.2;color:var(--gold)}
+.stats small{color:#aab1ba;font-size:14px;line-height:1.5;display:block}
+.stats div+div{border-inline-start:1px solid rgba(255,255,255,.12);padding-inline-start:28px}
+
+/* feature strip */
+.strip{background:#fff;border-bottom:1px solid var(--line);box-shadow:0 6px 20px rgba(18,27,38,.05)}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.feat{display:flex;gap:14px;align-items:center;padding:24px 16px}
+.feat{justify-content:center}
+.feat+.feat{border-inline-start:1px solid #e3ded3}
+.feat svg{flex:none;width:36px;height:36px;fill:var(--navy)}
+.feat b{display:block;font-size:16.5px;line-height:1.4;white-space:nowrap}
+.feat small{color:var(--mut);font-size:14.5px;line-height:1.5}
+
+/* sections */
+section{padding:64px 0}
+.head{text-align:center;max-width:780px;margin:0 auto 46px}
+.kick{display:inline-flex;align-items:center;gap:14px;color:var(--mut);font-size:15px;margin-bottom:8px}
+.kick::before,.kick::after{content:"";width:34px;height:1px;background:var(--gold)}
+h2{font-size:40px;line-height:1.35;font-weight:800}
+.head p{color:var(--mut);font-size:18px;margin-top:10px}
+
+/* service cards */
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.card{display:flex;gap:16px;align-items:stretch;background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px;transition:.3s}
+.card:hover{box-shadow:0 18px 40px rgba(18,27,38,.09);transform:translateY(-3px)}
+.card .body{flex:1;min-width:0;padding:12px 8px 8px}
+.card .top{display:flex;align-items:center;justify-content:space-between;flex-direction:row-reverse;gap:12px;margin-bottom:12px}
+.ic{flex:none;width:42px;height:42px;border-radius:50%;background:var(--green);display:grid;place-items:center}
+.ic svg{width:22px;height:22px;stroke:var(--gold-l);fill:none;stroke-width:1.7}
+.card h3{font-size:18px;line-height:1.4}
+.card p{color:var(--mut);font-size:15px;line-height:1.75;margin-bottom:12px}
+.more{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:14.5px;color:var(--green)}
+.more::after{content:"←"}
+.card img{width:32%;max-width:145px;min-height:180px;object-fit:cover;border-radius:4px;flex:none}
+.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:22px}
+.mini .card{padding:22px 24px;flex-direction:column}
+
+/* about */
+.about{background:var(--soft)}
+.about .wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:center}
+.about .ph{position:relative}
+.about .ph img{border-radius:8px;aspect-ratio:4/5;object-fit:cover;width:100%}
+.about .ph::before{content:"";position:absolute;inset:18px -18px -18px 18px;border:2px solid var(--gold);border-radius:8px;z-index:-1}
+.about .ph{z-index:0}
+.about h2{margin-bottom:16px}
+.about p{color:var(--mut);font-size:17px;margin-bottom:14px}
+.ticks{display:grid;grid-template-columns:1fr 1fr;gap:10px 24px;margin-top:20px}
+.ticks li{list-style:none;display:flex;gap:10px;align-items:center;font-weight:500}
+.ticks li::before{content:"✓";flex:none;width:24px;height:24px;border-radius:50%;background:var(--green);color:var(--gold-l);display:grid;place-items:center;font-size:13px}
+
+/* case studies */
+.cases{position:relative;background:var(--navy);color:#fff;overflow:hidden}
+.cases::before{content:"";position:absolute;inset:0;background:radial-gradient(520px 320px at 100% 100%,rgba(30,68,48,.85),transparent 70%),radial-gradient(420px 260px at 0 0,rgba(30,68,48,.7),transparent 70%)}
+.cases{padding:44px 0}
+.cases .wrap{position:relative;display:grid;grid-template-columns:1fr 1.25fr 1.25fr;gap:24px;align-items:center}
+.cases .k{color:var(--gold);font-size:17px;font-weight:500}
+.cases h2{font-size:32px;margin:4px 0 12px;color:#fff}
+.cases .intro p{color:#c6ccd3;font-size:16px;margin-bottom:22px}
+.case{background:#fff;color:var(--text);border-radius:8px;overflow:hidden;border:1px solid rgba(212,175,95,.4)}
+.case .im{position:relative;height:150px;background:center/cover}
+.case .tag{position:absolute;top:12px;right:12px;background:var(--green);color:#fff;font-size:13px;padding:4px 12px;border-radius:999px}
+.case .b{padding:14px 20px 16px}
+.case h3{font-size:19px;margin-bottom:6px}
+.case p{color:var(--mut);font-size:14.5px;line-height:1.7;margin-bottom:10px}
+
+/* testimonial */
+.testi .q{position:relative;max-width:860px;margin:0 auto;text-align:center;background:var(--soft);border-radius:10px;padding:56px 48px 40px}
+.testi .q::before{content:"”";position:absolute;top:-6px;right:34px;font-family:var(--latin);font-size:150px;line-height:1;color:var(--gold);opacity:.5}
+.stars{color:var(--gold);letter-spacing:6px;margin-bottom:10px}
+.testi blockquote{font-size:23px;font-weight:500;line-height:1.9;margin-bottom:20px}
+.who{display:inline-flex;gap:10px;align-items:center;color:var(--mut);font-size:15px}
+.who b{color:var(--text)}
+.who i{display:inline-block;width:100px;height:13px;border-radius:7px;background:linear-gradient(90deg,#d5cfc2,#ebe6dc,#d5cfc2);filter:blur(1.5px)}
+
+/* bottom cta */
+.band{background:linear-gradient(90deg,var(--green) 0%,var(--green2) 100%);color:#fff;padding:40px 0}
+.band .wrap{display:grid;grid-template-columns:1fr auto 1.5fr;gap:36px;align-items:center}
+.band h3{font-size:28px;line-height:1.4}
+.band p{color:#cfdcd3;font-size:15.5px}
+.wa{display:flex;align-items:center;gap:14px;border:1px solid var(--gold);border-radius:8px;padding:12px 26px;transition:.25s}
+.wa:hover{background:rgba(212,175,95,.12)}
+.wa svg{width:42px;height:42px;fill:#fff;background:#25D366;border-radius:50%;padding:7px}
+.wa b{display:block;font-size:20px;line-height:1.3}
+.wa small{color:#cfdcd3;font-size:13.5px}
+.pts{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.pt{display:flex;gap:10px;align-items:center;font-size:14px;line-height:1.5}
+.pt svg{flex:none;width:32px;height:32px;stroke:var(--gold);fill:none;stroke-width:1.5}
+
+footer{background:var(--navy);color:#9aa3ad;font-size:14.5px;padding:34px 0}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+footer .c{display:flex;gap:28px;flex-wrap:wrap}
+footer .c a{color:#dfe3e8;direction:ltr}
+footer .c a:hover{color:var(--gold)}
+
+.float{position:fixed;bottom:22px;left:22px;z-index:60;width:58px;height:58px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.float svg{width:30px;height:30px;fill:#fff}
+
+@media(max-width:1480px) and (min-width:1001px){
+  .hero .jars,.pillars4{display:none}
+  .hero .wrap{padding-right:max(24px,calc((100vw - 1392px)/2))}
+  .hero .pic{width:48%}
+  .hero .pic::after{background:linear-gradient(270deg,var(--navy) 0%,rgba(18,27,38,.5) 18%,rgba(18,27,38,0) 40%)}
+  .hero .txt{width:46vw}
+  h1{font-size:46px}
+}
+@media(max-width:1000px){
+  nav{display:none}
+  .hero{min-height:0}
+  .hero .pic{position:relative;width:100%;height:320px;background-position:62% center}
+  .hero .jars,.pillars4{display:none}
+  .hero .wrap{padding-right:24px}
+  .card img{width:38%}
+  .hero .pic::after{background:linear-gradient(0deg,var(--navy) 0%,rgba(18,27,38,0) 45%)}
+  .hero .txt{width:100%}
+  .card{flex-direction:column-reverse}.card img{width:100%;max-width:none;min-height:0;height:190px}
+  .card .top{flex-direction:row;justify-content:flex-start}
+  .hero .wrap{padding-top:10px;padding-bottom:56px}
+  h1{font-size:30px}h2{font-size:27px}
+  .strip .wrap{grid-template-columns:1fr 1fr}
+  .feat:nth-child(3){border:0}
+  .cards,.mini{grid-template-columns:1fr}
+  .about .wrap,.cases .wrap,.band .wrap{grid-template-columns:1fr}
+  .about .ph{max-width:360px;margin:0 auto}
+  .pts{grid-template-columns:1fr}
+  section{padding:64px 0}
+}
+@media(max-width:560px){
+  header .btn{display:none}
+  .strip .wrap{grid-template-columns:1fr}
+  .feat{border:0!important;border-top:1px solid #d9d4c8!important;padding:18px 4px}
+  .feat:first-child{border-top:0!important}
+  .ticks{grid-template-columns:1fr}
+  .stats{gap:16px}.stats div+div{padding-inline-start:16px}
+  .testi .q{padding:48px 22px 32px}.testi blockquote{font-size:19px}
+}
+
+.lang{display:inline-flex;align-items:center;gap:6px;color:#e4e6ea;font-size:14px;font-weight:700;letter-spacing:.05em}
+.lang svg{width:17px;height:17px;stroke:currentColor;fill:none;stroke-width:1.6}
+.lang:hover{color:var(--gold)}
+.hdr-end{display:flex;align-items:center;gap:22px}
+.about .sub{font-size:20px;font-weight:700;color:var(--green);margin:-6px 0 14px}
+.exp{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:22px}
+.exp div{background:#fff;border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.exp b{display:block;font-size:16px;margin-bottom:4px}
+.exp small{display:block;color:var(--mut);font-size:14px;line-height:1.65}
+.goal{margin-top:18px;padding:14px 18px;border-inline-start:3px solid var(--gold);background:#fff;border-radius:4px;font-weight:500}
+.contact{background:var(--soft)}
+.contact .wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;align-items:start}
+.contact h2{margin-bottom:12px}
+.contact .info p{color:var(--mut);font-size:17px;margin-bottom:22px}
+.cl{display:grid;gap:12px}
+.cl a{display:flex;align-items:center;gap:14px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px 18px;transition:.2s}
+.cl a:hover{border-color:var(--gold)}
+.cl svg{flex:none;width:22px;height:22px;stroke:var(--green);fill:none;stroke-width:1.7}
+.cl small{display:block;color:var(--mut);font-size:13px;line-height:1.3}
+.cl b{display:block;font-size:16px;font-weight:500;direction:ltr;text-align:start}
+form{background:#fff;border:1px solid var(--line);border-radius:10px;padding:28px;display:grid;gap:14px}
+form .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:grid;gap:6px;font-size:14px;font-weight:700}
+input,select,textarea{font:inherit;font-size:15px;font-weight:400;padding:12px 14px;border:1px solid #d9d4c8;border-radius:6px;background:#fbfaf7;color:var(--text);width:100%}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--gold);border-color:transparent;background:#fff}
+textarea{min-height:120px;resize:vertical}
+form .btn{justify-content:center;border:0;cursor:pointer;font-family:inherit}
+form .note{color:var(--mut);font-size:13px;text-align:center}
+/* LTR mirror */
+[dir=ltr] body{font-family:"Segoe UI",Tajawal,Arial,sans-serif}
+[dir=ltr] .hero .pic{left:auto;right:0;width:46%}
+[dir=ltr] .hero .txt{width:min(520px,34vw)}
+[dir=ltr] h1{font-size:42px}
+[dir=ltr] .feat b{white-space:normal}
+[dir=ltr] .hero .pic::after{background:linear-gradient(90deg,var(--navy) 0%,rgba(18,27,38,.55) 14%,rgba(18,27,38,0) 32%)}
+[dir=ltr] .hero .jars{right:auto;left:0;transform:scaleX(-1)}
+[dir=ltr] .pillars4{right:auto;left:calc(15% - 50px)}
+[dir=ltr] .hero .wrap{padding-right:24px;padding-left:calc(15% + 130px)}
+[dir=ltr] .more::after{content:"→"}
+[dir=ltr] .float{left:auto;right:22px}
+[dir=ltr] .about .ph::before{inset:18px 18px -18px -18px}
+[dir=ltr] .testi .q::before{right:auto;left:34px;content:"“"}
+[dir=ltr] .stats b{text-align:left!important}
+@media(max-width:1480px) and (min-width:1001px){[dir=ltr] .hero .wrap{padding-left:max(24px,calc((100vw - 1392px)/2))}
+ [dir=ltr] .hero .pic::after{background:linear-gradient(90deg,var(--navy) 0%,rgba(18,27,38,.5) 18%,rgba(18,27,38,0) 40%)}}
+@media(max-width:1480px) and (min-width:1001px){[dir=ltr] .hero .txt{width:44vw}[dir=ltr] .hero .pic{width:46%}}
+@media(max-width:1000px){[dir=ltr] .hero .pic{width:100%}[dir=ltr] .hero .txt{width:100%}[dir=ltr] h1{font-size:32px}.exp{grid-template-columns:1fr 1fr}.contact .wrap{grid-template-columns:1fr}[dir=ltr] .hero .wrap{padding-left:24px}
+ [dir=ltr] .hero .pic::after{background:linear-gradient(0deg,var(--navy) 0%,rgba(18,27,38,0) 45%)}}
+@media(max-width:560px){.exp,form .row{grid-template-columns:1fr}.hdr-end .lang span{display:none}form{padding:20px}}
+</style>
+</head>
+<body>
+
+<header><div class="wrap">
+  <a class="brand" href="#top"><span class="mz">MZ</span><div><b>محمد زكي</b><span class="en">MOHAMED ZAKI</span><small>Operations | Finance | Supply Chain</small></div></a>
+  <nav><a class="on" href="#top">الرئيسية</a><a href="#about">عنّي</a><a href="#services">الخدمات</a><a href="#cases">دراسات الحالة</a><a href="#contact">تواصل معي</a></nav>
+  <div class="hdr-end"><a class="lang" href="en.html"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg><span>EN</span></a><a class="btn btn-gold" href="#contact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>احجز استشارة</a></div>
+</div></header>
+
+<div class="hero" id="top">
+  <div class="pic" role="img" aria-label="محمد زكي"></div>
+  <div class="jars"></div>
+  <div class="pillars4">PEOPLE<br>PROCESSES<br>PRODUCTS<br>PROFITABILITY</div>
+  <div class="wrap"><div class="txt">
+    <div class="eyebrow">استشارات وحلول عملية للمشاريع الغذائية</div>
+    <h1>نحوّل التحديات التشغيلية<br>إلى <span class="gold">فرص للنمو</span></h1>
+    <p class="lead">خبرة عملية في الإدارة التشغيلية، والتكاليف، وسلاسل الإمداد، وتحليل البيانات لدعم قرارات أكثر دقة وكفاءة.</p>
+    <div class="cta">
+      <a class="btn btn-gold" href="#contact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>تواصل معي</a>
+      <a class="btn btn-line" href="#about">استكشف خبراتي</a>
+    </div>
+    <div class="stats"><div><b>+5</b><small>سنوات خبرة<br>في المجال</small></div><div><b>4</b><small>من أكبر البراندات<br>في الإمارات</small></div></div>
+  </div></div>
+</div>
+
+<div class="strip"><div class="wrap"><div class="feat"><svg viewBox="0 0 24 24"><path d="M19.4 13a7.6 7.6 0 0 0 0-2l2.1-1.6-2-3.4-2.5 1a7.3 7.3 0 0 0-1.7-1L15 3.3h-4l-.4 2.7a7.3 7.3 0 0 0-1.7 1l-2.5-1-2 3.4L6.6 11a7.6 7.6 0 0 0 0 2l-2.1 1.6 2 3.4 2.5-1c.5.4 1.1.7 1.7 1l.4 2.7h4l.4-2.7c.6-.3 1.2-.6 1.7-1l2.5 1 2-3.4zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" transform="translate(-1 0)"/></svg><div><b>الإدارة التشغيلية</b><small>بناء عمليات أكثر كفاءة واستدامة</small></div></div><div class="feat"><svg viewBox="0 0 24 24"><ellipse cx="9" cy="6" rx="6" ry="2.6"/><path d="M3 7.5v3c0 1.4 2.7 2.6 6 2.6s6-1.2 6-2.6v-3c0 1.4-2.7 2.6-6 2.6S3 8.9 3 7.5zM3 12.5v3c0 1.4 2.7 2.6 6 2.6.6 0 1.1 0 1.6-.1A5 5 0 0 1 11 14v-.1c-.6.1-1.3.2-2 .2-3.3 0-6-1.2-6-2.6zM16.5 12a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9z"/></svg><div><b>تحليل التكاليف</b><small>رؤية مالية أكثر دقة وربحية أعلى</small></div></div><div class="feat"><svg viewBox="0 0 24 24"><path d="M2 6h12v10H2zM15 9h4l3 3.5V16h-7zM6 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM18 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg><div><b>المشتريات وسلاسل الإمداد</b><small>إدارة الموردين وضبط التكاليف</small></div></div><div class="feat"><svg viewBox="0 0 24 24"><path d="M3 20h18v1.5H3zM4 12h3v7H4zM9 8h3v11H9zM14 10h3v9h-3zM19 4h3v15h-3z"/></svg><div><b>تحليل البيانات</b><small>تحويل البيانات إلى قرارات عملية</small></div></div></div></div>
+
+<section id="services"><div class="wrap">
+  <div class="head"><span class="kick">ما أقدمه لك</span><h2>خبرة عملية. قرارات أوضح. أداء أفضل.</h2><p>استشارات متخصصة تساعدك على تطوير مشروعك الغذائي وتحقيق نمو مستدام من خلال حلول عملية قابلة للتطبيق.</p></div>
+  <div class="cards"><div class="card"><div class="body"><div class="top"><span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg></span><h3>الإدارة التشغيلية</h3></div><p>تأسيس المشاريع الغذائية وتطوير العمليات التشغيلية، تحسين كفاءة الإنتاج، وبناء إجراءات عمل واضحة وقابلة للتنفيذ.</p><a class="more" href="#contact">اطلب الخدمة</a></div><img src="svc-ops.webp" alt="خط إنتاج غذائي" loading="lazy"></div><div class="card"><div class="body"><div class="top"><span class="ic"><svg viewBox="0 0 24 24"><path d="M5 20V12M10 20V8M15 20v-6M20 20V5"/></svg></span><h3>التحليل المالي والتكاليف</h3></div><p>إعداد وتحليل التكاليف ودراسة الجدوى، وتحليل الأداء المالي والتشغيلي لدعم اتخاذ القرار.</p><a class="more" href="#contact">اطلب الخدمة</a></div><img src="svc-fin.webp" alt="تحليل مالي" loading="lazy"></div><div class="card"><div class="body"><div class="top"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 2l9 5v10l-9 5-9-5V7zM3 7l9 5 9-5M12 12v10"/></svg></span><h3>المشتريات وسلاسل الإمداد</h3></div><p>إدارة المشتريات والموردين، وتطوير أنظمة المخزون والإنتاج والرقابة لضمان استمرارية التوريد.</p><a class="more" href="#contact">اطلب الخدمة</a></div><img src="svc-supply.webp" alt="مراقبة جودة" loading="lazy"></div></div>
+</div></section>
+
+<section class="cases" id="cases"><div class="wrap">
+  <div class="intro"><span class="k">دراسات الحالة</span><h2>حلول عملية مبنية على فهم الواقع</h2><p>أعمل على تطوير وتشغيل مشاريع غذائية بمختلف أحجامها، من خلال حلول عملية تلبي احتياجات كل مشروع وتحقق كفاءة أعلى ونموًا مستدامًا.</p><a class="btn btn-line" href="#contact">ناقش مشروعك معي</a></div>
+  <div class="case"><div class="im" style="background-image:url(svc-ops.webp)"><span class="tag">تطوير العمليات التشغيلية</span></div><div class="b"><h3>مشروع إنتاج وتعبئة منتجات غذائية</h3><p>تحسين خطوط الإنتاج، تنظيم سير العمل، ورفع كفاءة التشغيل لتحقيق جودة أعلى وتكاليف أكثر كفاءة.</p></div></div><div class="case"><div class="im" style="background-image:url(svc-fin.webp)"><span class="tag">تحليل البيانات والتقارير</span></div><div class="b"><h3>بناء نظام تقارير إدارية</h3><p>تطوير نظام تقارير لمتابعة المبيعات والمخزون والتكاليف، لدعم اتخاذ القرار المناسب في الوقت المناسب.</p></div></div>
+</div></section>
+
+<section class="about" id="about"><div class="wrap">
+  <div class="ph"><img src="photo.webp" alt="محمد زكي" loading="lazy"></div>
+  <div>
+    <span class="kick" style="margin-bottom:6px">عنّي</span>
+    <h2>محمد زكي | Mohamed Zaki</h2>
+    <div class="sub">مستشار المشاريع والإدارة التشغيلية — من فكرة المشروع إلى تشغيل ناجح ومستدام.</div>
+    <p>أساعد أصحاب المشاريع الغذائية ورواد الأعمال على تحويل أفكارهم إلى مشروعات قابلة للتنفيذ، من خلال التخطيط التشغيلي، وإدارة الإنتاج والمخزون، وتطوير الموردين، وتحليل التكاليف، وبناء أنظمة عمل تساعد على تحسين الكفاءة والربحية.</p><p>لا أكتفي بالتخطيط؛ بل أركز على تحويل الأهداف إلى إجراءات عملية، ومؤشرات أداء واضحة، ونتائج يمكن قياسها. خبرة أكثر من 5 سنوات، منها العمل مع 4 من أكبر البراندات في الإمارات في مجال محاشي وخلطات اللبنة والمنتجات الغذائية.</p>
+    <div class="exp"><div><b>التشغيل والإنتاج</b><small>تنظيم العمليات اليومية ومتابعة الإنتاج والمخزون.</small></div><div><b>المشتريات</b><small>التفاوض مع الموردين، متابعة التوريد، وضبط تكلفة الخامات.</small></div><div><b>سلاسل الإمداد</b><small>تنظيم تدفق المواد والمخزون وربط المشتريات باحتياجات التشغيل.</small></div><div><b>المحاسبة المالية</b><small>الرقابة المالية، التقارير، وتحليل التكاليف.</small></div><div><b>تحليل البيانات</b><small>تحويل البيانات إلى مؤشرات تدعم القرار باستخدام <span dir="ltr">Excel · Power Query · Power BI</span>.</small></div><div><b>الأنظمة المحاسبية</b><small>أدوات الرقابة والتقارير وربط العمليات بالبيانات المالية.</small></div></div>
+    <div class="goal"><b>هدفي:</b> أن أساعدك على بناء مشروع منظم، بتكاليف مدروسة، وعمليات أكثر كفاءة، وأسس واضحة للنمو.</div>
+  </div>
+</div></section>
+
+<section class="testi"><div class="wrap">
+  <div class="head" style="margin-bottom:34px"><span class="kick">آراء العملاء</span><h2>ماذا يقول عملائي</h2></div>
+  <div class="q">
+    <div class="stars">★★★★★</div>
+    <blockquote>بصراحة من أحسن الشخصيات وأكثرهم كفاءة وصدق في العمل، وبجد كانت تجربتي معك مربحة جدًا. جزاك الله كل خير أستاذ محمد.</blockquote>
+    <div class="who"><b>عميل</b><i aria-hidden="true"></i><span>· تم إخفاء الاسم بطلب من العميل</span></div>
+  </div>
+</div></section>
+
+<section class="contact" id="contact"><div class="wrap">
+  <div class="info">
+    <span class="kick" style="margin-bottom:6px">تواصل معي</span>
+    <h2>احجز استشارتك</h2>
+    <p>اكتب بيانات مشروعك، وسيتم إرسال رسالتك مباشرة على واتساب، وأرد عليك بخطوات واضحة للبداية.</p>
+    <div class="cl">
+      <a href="https://wa.me/971558827749"><svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 0 1-13.5 7.8L3 21l1.2-4.4A9 9 0 1 1 21 12z"/></svg><div><small>واتساب / اتصال</small><b>+971 55 882 7749</b></div></a>
+      <a href="mailto:info@mohamed-zaki.com"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><div><small>البريد الإلكتروني</small><b>info@mohamed-zaki.com</b></div></a>
+    </div>
+  </div>
+  <form id="f" onsubmit="return sendWA(event)">
+    <div class="row">
+      <label>الاسم<input name="n" required autocomplete="name"></label>
+      <label>رقم الهاتف<input name="p" type="tel" required autocomplete="tel" dir="ltr"></label>
+    </div>
+    <label>نوع الخدمة<select name="s"><option>تأسيس مشروع غذائي</option><option>تطوير العمليات التشغيلية</option><option>تحليل التكاليف ودراسة الجدوى</option><option>المشتريات وسلاسل الإمداد</option><option>تحليل البيانات والتقارير</option><option>أخرى</option></select></label>
+    <label>نبذة عن مشروعك<textarea name="m" required></textarea></label>
+    <button class="btn btn-gold" type="submit">إرسال عبر واتساب</button>
+    <div class="note">بالضغط على إرسال سيتم فتح واتساب برسالة جاهزة.</div>
+  </form>
+</div></section>
+
+<div class="band"><div class="wrap">
+  <div><h3>لنتحدث عن مشروعك</h3><p>سواء كنت في مرحلة الفكرة أو ترغب في تطوير مشروع قائم، يمكننا مناقشة احتياجاتك ووضع خطة عملية مناسبة.</p></div>
+  <a class="wa" href="https://wa.me/971558827749"><svg viewBox="0 0 32 32"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.5-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.6 5.7 5 2.1.9 3 1 4 .8.7-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5 0-.2-.3-.3-.6-.4z"/></svg><div><b>تواصل عبر واتساب</b><small>للاستشارة السريعة</small></div></a>
+  <div class="pts"><div class="pt"><svg viewBox="0 0 24 24"><path d="M3 3v18h18M7 15l4-4 3 3 6-6"/></svg>تركيز على النتائج والنمو</div><div class="pt"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M16 4a3 3 0 0 1 0 6M18 14c2 .8 3 3 3 6"/></svg>فهم حقيقي لطبيعة المشاريع الغذائية</div><div class="pt"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg>حلول عملية قابلة للتنفيذ</div></div>
+</div></div>
+
+<footer><div class="wrap">
+  <span>© 2026 محمد زكي · جميع الحقوق محفوظة</span>
+  <div class="c"><a href="https://wa.me/971558827749">+971 55 882 7749</a><a href="mailto:info@mohamed-zaki.com">info@mohamed-zaki.com</a><a href="en.html">EN</a></div>
+</div></footer>
+
+<a class="float" href="https://wa.me/971558827749" aria-label="WhatsApp"><svg viewBox="0 0 32 32"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.5-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.6 5.7 5 2.1.9 3 1 4 .8.7-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5 0-.2-.3-.3-.6-.4z"/></svg></a>
+<script>
+function sendWA(e){e.preventDefault();var f=e.target;
+var L={'n': 'الاسم', 'p': 'رقم الهاتف', 's': 'نوع الخدمة', 'm': 'نبذة عن مشروعك'};
+var msg='مرحبًا أستاذ محمد، أرغب في حجز استشارة.'+"\n\n"+L.n+": "+f.n.value+"\n"+L.p+": "+f.p.value+"\n"+L.s+": "+f.s.value+"\n"+L.m+": "+f.m.value;
+window.open("https://wa.me/971558827749?text="+encodeURIComponent(msg),"_blank");return false;}
+</script>
+</body>
+</html>
