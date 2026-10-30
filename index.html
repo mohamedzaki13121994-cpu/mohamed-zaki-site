@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#121B26">
 <meta property="og:title" content="محمد زكي | مستشار المشاريع والإدارة التشغيلية للمشاريع الغذائية">
 <meta property="og:description" content="محمد زكي — مستشار المشاريع والإدارة التشغيلية. خبرة عملية في التشغيل والإنتاج، تحليل التكاليف، المشتريات وسلاسل الإمداد، وتحليل البيانات للمشاريع الغذائية.">
-<meta property="og:image" content="https://mohamed-zaki.com/hero.webp">
+<meta property="og:image" content="https://mohamed-zaki.com/hero-bg.webp">
 <link rel="alternate" hreflang="ar" href="https://mohamed-zaki.com/">
 <link rel="alternate" hreflang="en" href="https://mohamed-zaki.com/en.html">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -251,6 +251,34 @@ form .note{color:var(--mut);font-size:13px;text-align:center}
 @media(max-width:1000px){[dir=ltr] .hero .pic{width:100%}[dir=ltr] .hero .txt{width:100%}[dir=ltr] h1{font-size:32px}.exp{grid-template-columns:1fr 1fr}.contact .wrap{grid-template-columns:1fr}[dir=ltr] .hero .wrap{padding-left:24px}
  [dir=ltr] .hero .pic::after{background:linear-gradient(0deg,var(--navy) 0%,rgba(18,27,38,0) 45%)}}
 @media(max-width:560px){.exp,form .row{grid-template-columns:1fr}.hdr-end .lang span{display:none}form{padding:20px}}
+
+/* v5 hero: mockup composition */
+.hero{min-height:0;height:max(400px,21vw);background:var(--navy) url(hero-bg.webp) center/cover no-repeat}
+.hero .pic,.hero .jars,[dir=ltr] .hero .jars{display:none}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 34% 70% at 64% 50%,rgba(14,22,32,.55),rgba(14,22,32,0) 100%);pointer-events:none}
+.hero .wrap,[dir=ltr] .hero .wrap{position:absolute;inset:0;max-width:none;padding:0;display:flex;align-items:center;z-index:2}
+.hero .txt,[dir=ltr] .hero .txt{position:absolute;left:44.5%;right:21%;width:auto}
+.hero h1{white-space:nowrap;font-size:clamp(34px,3vw,54px);line-height:1.22;margin-bottom:14px;text-shadow:0 2px 18px rgba(0,0,0,.35)}
+.hero .eyebrow{font-size:clamp(16px,1.15vw,20px);margin-bottom:8px}
+.hero .lead{font-size:clamp(16px,1.15vw,19px);margin-bottom:22px;max-width:none}
+.hero .stats{display:none}
+.pillars4,[dir=ltr] .pillars4{right:auto;left:83%;top:22%;direction:ltr;text-align:left;border:0;border-left:2px solid var(--gold);padding:0 0 0 14px;font-size:13px;z-index:3}
+[dir=ltr] .hero .txt{left:45%;right:21.5%}
+[dir=ltr] .hero h1{white-space:normal;font-size:clamp(30px,2.25vw,46px);line-height:1.15}
+@media(max-width:1300px) and (min-width:1001px){
+ .hero{height:430px;background-position:30% center}
+ .pillars4{display:none}
+ .hero .txt,[dir=ltr] .hero .txt{left:44%;right:4%}
+ .hero::after{background:linear-gradient(90deg,rgba(14,22,32,0) 30%,rgba(14,22,32,.85) 48%,rgba(14,22,32,.85) 100%)}}
+@media(max-width:1000px){
+ .hero{height:auto;background:var(--navy)}
+ .hero::after{display:none}
+ .hero .pic,[dir=ltr] .hero .pic{display:block;position:relative;width:100%;height:300px;background:url(hero-bg.webp) 19% center/auto 100% no-repeat}
+ .hero .pic::after,[dir=ltr] .hero .pic::after{background:linear-gradient(0deg,var(--navy) 0%,rgba(18,27,38,0) 40%)}
+ .hero .wrap,[dir=ltr] .hero .wrap{position:relative;inset:auto;display:block;padding:8px 24px 48px}
+ .hero .txt,[dir=ltr] .hero .txt{position:static;width:100%}
+ .hero h1{white-space:normal}
+ .pillars4{display:none}}
 </style>
 </head>
 <body>
